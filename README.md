@@ -10,3 +10,7 @@ My personal website project to showcase my various projects and programs. Curren
 - HTML
 - CSS
 - JavaScript
+
+# Built Listening To
+- Ramones Greatest Hits Live
+- 
