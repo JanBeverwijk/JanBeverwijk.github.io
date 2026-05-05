@@ -1,16 +1,20 @@
 # JanBeverwijk.github.io
 
-# About
+## About
+
 My personal website project to showcase my various projects and programs. Currently in its early stages.
-# Roadmap
+
+## Roadmap
+
 - Portfolio website (WIP)
 - Wine About It web-app (Planned)
 
-# Built With
+## Built With
+
 - HTML
 - CSS
 - JavaScript
 
-# Built Listening To
+## Built Listening To
+
 - Ramones Greatest Hits Live
-- 
