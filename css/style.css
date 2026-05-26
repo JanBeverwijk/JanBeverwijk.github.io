@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Stack+Sans+Text:wght@200..700&display=swap');
 
 :root {
-    --color-cream:#f8f4ef;
+    --color-bg:#f8f4ef;
     --color-accent:#3F91E9;
-    --color-text:#1f0303;
-    --color-vitus:#a96cea;
-    --padding-section: 15px 10px;
+    --color-text:#170101;
+    --color-vitus:#870c4a;
+    --color-obv: #5ed480 ;
+    --padding-section: 15px 10p
     --padding-container: 20px 20px;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: var(--padding-container);
 }
 
 body {
@@ -20,7 +21,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 450;
   font-style: normal;
-  background-color: var(--color-cream);
+  background-color: var(--color-bg);
   color: var(--color-text)
 }
 
@@ -40,7 +41,7 @@ nav {
 flex-grow: 1;
 background-color: var(--color-accent);
 padding: 10px;
-width: 80;
+width: 80px;
 border-radius: 5px;
 min-height: 80vh;
 margin: 40px;
@@ -54,7 +55,7 @@ h1 {
   font-family: "Stack Sans", sans-serif;
   font-size: 45px;
   font-weight: 700;
-  color: var(--color-cream);
+  color: var(--color-bg);
 }
 
 p {
@@ -75,58 +76,57 @@ ul {
     color: var(--color-text);
     text-align: center;
     padding: 20px 20px;
-    text-decoration:solid; 
-    font-size: 20px;
-    font-weight: 650;
+    text-decoration:none; 
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .nav-ul li a:hover {
     color: var(--color-accent);
 }
 
-.nav-ul .li-wine a:hover{
-    color: var(--color-vitus);
+.nav-ul .li-obv a:hover{
+    color: var(--color-obv);
 }
 
-.vitis {
+.project {
     display: flex;
     flex-wrap: wrap;
 }
 
-.vitis-card {
-    background-color: var(--color-cream);
+.project-card {
+    background-color: var(--color-bg);
     border: 1px solid var(--color-text);
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 40px;
     padding: 10px;
     width: 100%;
     flex-grow: 1;
 }
 
-.vitis-h3 {
+.project-h3 {
 font-size: 30px;
 font-weight: 800;
 color: var(--color-text);
 }
 
-.vitis a {
-color: var(--color-cream);
-text-decoration: solid;
-background-color: var(--color-vitus);
+.project a {
+color: var(--color-bg);
+text-decoration: none;
+background-color: var(--color-obv);
 padding: 10px;
 border-radius: 10px;
 
 }
-.vitis a:hover {
+.project a:hover {
     background-color: var(--color-accent);
 }
 
-
-footer {
+.footer {
     display: flex;
 }
 .footer-card {
-    background-color: var(--color-cream);
+    background-color: var(--color-bg);
     border: 1px solid var(--color-text);
     border-radius: 5px;
     margin: 40px;
@@ -141,7 +141,7 @@ footer {
 }
 .footer-ul li a {
     color: var(--color-text);
-    text-decoration:solid; 
+    text-decoration:none; 
     font-size: 20px;
     font-weight: 600;
 }

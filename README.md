@@ -17,4 +17,6 @@ My personal website project to showcase my various projects and programs. Curren
 
 ## Built Listening To
 
-- Ramones Greatest Hits Live
+- Greatest Hits Live | Ramones
+- Inédito | Antônio Carlos Jobim
+- 
